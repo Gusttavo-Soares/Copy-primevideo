@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Prime-video1";
+    src: url(./AmazonEmber_Lt.woff);}
+
+@font-face {
+    font-family: "Prime-video2";
+    src: url(./AmazonEmber_Rg.woff);    
+
+}
+*{
+    padding: 0px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 5.3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: "Prime-video2";
+}
+header h1{
+    height: 3.8rem;
+    font-family: "Prime-video2";
+    font-size: 2.5rem;
+    padding-right: 3rem;
+}
+header > nav > a{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+header > nav > a > img{
+    height: 3rem;
+    transition: .1s;
+}
+header nav a{
+color: #bebebed8;
+font-size: 1.8rem;
+margin-right: 2rem;
+}
+.setas{
+    height: 3.169rem;
+}
+.pesquisar{
+    height: 3.87rem;
+    width: 3.87rem;
+}
+.imghomem{
+    height: 3.519rem;
+    width: 3.519rem;
+}
+/*================================================================================================================================================*/
+.top{
+    background-image: url(./BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.class1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7rem;
+    height: 67.5rem;
+    width: 60%;
+    background-image: linear-gradient(to right, black 90% , transparent);
+    gap: 2rem;
+    
+}
+
+.class1 > article,a{
+    color: white;
+    font-size: 2.2rem;
+    font-family: "Prime-video1";
+}
+main .class1 h2{
+    font-family: "Prime-video1";
+    font-size: 4.6rem;
+}
+main > .top > .class1 > h2, .cad, .texto1 ,.texto2 {
+    margin-left: 1.5rem;
+}
+main > .top > .class1 > .hr{
+    display: flex;
+}
+main > .top > .class1 > .hr hr{
+    width: 9.5rem;
+    height: 0rem;
+    margin: 1.5rem;
+}
+main > .top > .class1 > .cad{
+    height: 5.4rem;
+    width: 25rem;
+    font-size: 1.7rem;
+    font-family: "Prime-video2";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f79af;
+    border-radius: .2rem;
+}
+/*=============================================================================================================================================*/
+.meio{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: relative;
+}
+.meio > .textos{
+    padding: 8.5rem 6rem;
+    font-family: "Prime-video1";
+    font-size: 3rem;
+}
+.meio > .textos > h2{
+    font-weight: 100;
+    padding: 0 0 3.5rem 0;
+}
+.meio > .textos  article{
+    font-size: 2.5rem;
+}
+.fundo:hover { 
+    box-shadow: 0 0 1.5rem black;
+}
+.meio > .imagem-canais a img{
+    margin: .3rem;
+    height: 17.6rem;
+    transition: .17s;
+}
+/*================================================================================================================================================*/
+
+#loja{
+    display: flex;
+    justify-content: end;
+    background-image: url(./Loja.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 100%;
+}
+
+.texto-loja{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    padding: 0 6.4rem 0 12.8rem;
+    height: 67.5rem;
+    width: 60%;
+    background-image: linear-gradient(to left, black  90%, transparent );
+}
+#loja > .texto-loja > a{
+    height: 5.4rem;
+    width: 25rem;
+    font-size: 1.7rem;
+    font-family: "Prime-video2";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f79af;
+    border-radius: .2rem;
+}
+.texto-loja h2{
+    font-family: "Prime-video1";
+    font-size: 4.6rem;
+}
+.texto-loja article{
+    font-family: "Prime-video1";
+    font-size: 2rem;
+}
+/*===========================================================================================================================================*/
+.final{
+    display: flex;
+    justify-content: center;
+    font-family: "Prime-video1";
+    padding: 6rem 7.5rem 3rem;
+    gap: 2rem;
+
+}
+.final1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+.final > .final1 > h2{
+    font-size: 3.6rem;
+    padding: 2rem;
+    
+}
+.final > .final1 > article{
+    font-size: 1.5rem;
+}
+/*===========================================================================================================================================*/
+footer{ 
+    height: 15.68rem;
+    width: 100vw;
+    background-color: #2a2a2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.arodape{
+    text-decoration: underline;
+    color: #0f79af;
+}
+.arodape a {
+    color:#0f79af;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.rodape img{
+    padding-bottom: .5rem;
+}
+.rodape p{
+    padding-top: 1rem;
+    color:  #bebebed8;
+    font-family: "Prime-video1";
+    font-size: 1.6rem;
+}
